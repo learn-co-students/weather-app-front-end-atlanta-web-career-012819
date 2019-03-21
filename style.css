@@ -1,3 +1,33 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(192, 243, 237);
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+#where {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.hline {
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  width: 80%;
+  height: 1px;
+  background: #ddd;
+}
+
+fieldset {
+  border: none;
 }
